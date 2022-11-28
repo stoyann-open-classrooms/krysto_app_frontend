@@ -1,48 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300&display=swap");
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import "./SASS/reset";
+@import "./SASS/variables";
 
-html {
-  font-size: 62, 5%;
-}
 
-body {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-li {
-  list-style: none;
-}
-
-input, textarea {
-  border: none;
-  width: 100%;
-  background-color: rgb(199, 199, 199);
-  padding: 0.3rem;
-  border-radius: 0.2rem;
-  outline: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-}
-
-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
 
 * {
   margin: 0;
@@ -51,7 +10,7 @@ button {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 100vh;
 }
 
@@ -393,7 +352,6 @@ p.status-complete {
 }
 
 footer {
-  position: -webkit-sticky;
   position: sticky;
   top: 95vh;
   text-align: center;
@@ -418,17 +376,7 @@ footer {
   border: 8px solid;
   border-color: #000 transparent #555 transparent;
   border-radius: 50%;
-  -webkit-animation: spin 1.2s linear infinite;
-          animation: spin 1.2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  animation: spin 1.2s linear infinite;
 }
 
 @keyframes spin {
@@ -439,18 +387,22 @@ footer {
     transform: rotate(360deg);
   }
 }
+
 @media (max-width: 600px) {
   .boxes {
     grid-template-columns: 1fr;
   }
+
   .form {
     width: 90%;
   }
+
   .ticket-created h2,
-.heading h1 {
+  .heading h1 {
     font-size: 2rem;
   }
+
   .heading p {
     font-size: 1.5rem;
   }
-}/*# sourceMappingURL=index.css.map */
+}
