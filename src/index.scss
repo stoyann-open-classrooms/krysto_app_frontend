@@ -12,11 +12,13 @@
 body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  background-color: $dark;
+  color: $white;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color:  $white;
 }
 
 p {
@@ -51,8 +53,10 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid $white;
+  color: $white;
   margin-bottom: 60px;
+
 }
 
 .header ul {
@@ -71,7 +75,7 @@ h3 {
 }
 
 .header ul li a:hover {
-  color: #777;
+  color:  $secondary;
 }
 
 .header ul li a svg {
@@ -141,9 +145,9 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid $primary;
   border-radius: 5px;
-  background: #000;
+  background: $primary;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -174,7 +178,7 @@ h3 {
 }
 
 .btn-danger {
-  background: darkred;
+  background: rgb(226, 50, 50);
   border: none;
 }
 
