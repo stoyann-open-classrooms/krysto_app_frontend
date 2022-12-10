@@ -53,8 +53,8 @@ button {
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  background-color: #333;
-  color: rgb(215, 215, 215);
+  background-color: white;
+  color: #333;
 }
 
 a {
@@ -83,20 +83,25 @@ h3 {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0;
   text-align: center;
+}
+
+.page-content {
+  min-height: 100vh;
+  padding: 0 1rem;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-  border-bottom: 1px solid rgb(215, 215, 215);
-  color: rgb(215, 215, 215);
-  margin-bottom: 60px;
+  padding: 20px 1rem;
+  border-bottom: 1px solid #333;
+  color: #333;
+  margin-bottom: 1.5rem;
 }
 
 .header ul {
@@ -112,10 +117,11 @@ h3 {
 .header ul li a {
   display: flex;
   align-items: center;
+  color: #333;
 }
 
 .header ul li a:hover {
-  color: #62ebca;
+  color: #9097e1;
 }
 
 .header ul li a svg {
@@ -123,14 +129,69 @@ h3 {
 }
 
 .heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 4rem;
   padding: 0 20px;
 }
 
 .heading p {
   color: #828282;
+  font-size: 1.2rem;
+}
+
+.heading img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.text-container {
+  max-width: 960px;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.text-container h4 {
+  font-size: 2rem;
+  background-color: #9097e1;
+  text-align: center;
+  padding: 0.4rem 0;
+  color: rgb(55, 28, 136);
+  margin: 5rem 0;
+  position: relative;
+  border-radius: 5px;
+}
+.text-container h4 span {
+  font-size: 3.5rem;
+  position: absolute;
+  top: -0.6rem;
+  left: 35%;
+  text-align: center;
+}
+
+.text-container p {
+  margin: 2rem 0;
+}
+
+.text-container div {
+  background-color: grey;
+}
+
+.boxes-explain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 4rem 0;
+}
+.boxes-explain div {
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  height: 300px;
 }
 
 .boxes {
@@ -141,6 +202,15 @@ h3 {
   align-items: center;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.little-boxe img {
+  width: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+.img-box {
+  width: 100%;
 }
 
 .boxes div {
@@ -396,8 +466,6 @@ p.status-complete {
 }
 
 footer {
-  position: -webkit-sticky;
-  position: sticky;
   top: 95vh;
   text-align: center;
 }
@@ -456,4 +524,7 @@ footer {
   .heading p {
     font-size: 1.5rem;
   }
+}
+.leaflet-container {
+  height: 30rem;
 }/*# sourceMappingURL=index.css.map */

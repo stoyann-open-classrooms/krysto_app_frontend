@@ -1,5 +1,12 @@
-import { useState } from "react";
-import { FaUser } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import {toast} from 'react-toastify'
+import { FaMarsStroke, FaUser } from "react-icons/fa";
+import {useSelector , useDispatch} from "react-redux";
+import  {register, reset} from '../features/auth/authSlice'
+
+
+
 
 function Register() {
   const [formData, setFormData] = useState({
@@ -9,6 +16,28 @@ function Register() {
     password2: "",
   });
 
+const dispatch = useDispatch()
+const navigate = useNavigate()
+const {user, isLoading , isSuccess , message, isError} = useSelector(state => state.auth)
+
+
+
+  useEffect(() => {
+    if(isError) {
+      toast.error(message)
+    }
+  // redirect when logged in 
+  if(isSuccess || user) {
+    navigate('/')
+
+  }
+
+  dispatch(reset())
+  }, [isError, isSuccess, user, message, navigate, dispatch])
+  
+
+
+
   const onChange = (e) => {
     setFormData((prevState) => ({
       ...prevState,
@@ -17,6 +46,25 @@ function Register() {
   };
   const onSubmit = (e) => {
     e.preventDefault();
+
+    if(!name) {
+      toast.error('Vous devez entrer votre nom !')
+    }
+    if(!email) {
+      toast.error('Vous devez entrer votre email !')
+    }
+    if(password !== password2) {
+      toast.error('Les mots de passe ne correspondent pas !')
+    } else  { 
+      const userData = {
+        name,
+        email,
+        password
+      }
+
+      dispatch(register(userData))
+    }
+
   };
 
   const { name, email, password, password2 } = formData;
@@ -25,7 +73,7 @@ function Register() {
     <>
       <section className="heading">
         <h1>
-          <FaUser /> Inscription
+          <FaUser /> 
         </h1>
         <p>Merci de créer un compte</p>
       </section>
@@ -40,6 +88,7 @@ function Register() {
               id="name"
               value={name}
               onChange={onChange}
+              
               placeholder="Entrer votre nom"
             />
           </div>
@@ -47,6 +96,7 @@ function Register() {
             <input
               className="form-control"
               name="email"
+              
               type="mail"
               id="email"
               value={email}

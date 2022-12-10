@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+input, textarea {
+  border: none;
+  width: 100%;
+  background-color: rgb(199, 199, 199);
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #9097e1;
+  height: 40rem;
+  padding: 1rem 1rem 1rem 6rem;
+  width: 100%;
+  z-index: 999999;
+}
+
+.social-media-container a {
+  font-size: 30px;
+  margin: 0 20px;
+  border: none;
+  color: #333;
+  background-color: transparent;
+}
+
+.footer-nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav-section p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  color: #333;
+}
+.footer-nav-section ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  transition: all 0.2s;
+}
+.footer-nav-section ul li:hover {
+  color: #62ebca;
+}
+
+.all-right-reserved {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */
