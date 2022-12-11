@@ -535,4 +535,9 @@ footer {
 .card img {
   border-radius: 5px 5px 0 0;
   width: 100%;
+}
+
+.nb-collect {
+  background-color: #9097e1;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=index.css.map */
