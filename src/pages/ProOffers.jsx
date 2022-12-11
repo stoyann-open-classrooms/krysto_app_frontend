@@ -2,7 +2,7 @@ import React from "react";
 
 function ProOffers() {
   return (
-    <>
+    <div className="page-content">
       <section className="heading">
         <h1>Nos offres Pro</h1>
       </section>
@@ -107,7 +107,7 @@ function ProOffers() {
           </div>
         </form>
       </section>
-    </>
+    </div>
   );
 }
 

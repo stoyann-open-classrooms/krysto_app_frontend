@@ -41,7 +41,7 @@ function Login() {
   const {user, isLoading , isSuccess , message} = useSelector(state => state.auth)
 
   return (
-    <>
+    <div className="page-content">
       <section className="heading">
         <h1>
           <FaSignInAlt /> Ce connecter
@@ -80,7 +80,7 @@ function Login() {
           </div>
         </form>
       </section>
-    </>
+    </div>
   );
 }
 

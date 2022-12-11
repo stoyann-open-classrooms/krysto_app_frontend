@@ -9,7 +9,7 @@ function CollectPoints() {
     </section>
 
     <div className="leaflet-container">
-        <MapContainer style={{height: '100%', width:'100%'}} center={[-22.275800, 166.458000]} zoom={13} scrollWheelZoom={false}>
+        <MapContainer style={{height: '100%', width:'100%'}} center={[-22.275800, 166.458000]} zoom={12} scrollWheelZoom={false}>
         <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -29,6 +29,22 @@ function CollectPoints() {
         Optic discount <br /> tel: 30.03.40
       </Popup>
     </Marker>
+    <Marker position={[-22.2967466,166.4391694]}>
+      <Popup>
+        clinique de la BD <br /> tel: 30.03.40
+      </Popup>
+    </Marker>
+    <Marker position={[45.1834675,5.7044561]}>
+      <Popup>
+        clinique de la BD <br /> tel: 30.03.40
+      </Popup>
+    </Marker>
+    <Marker position={[-22.2421748,166.4786543]}>
+      <Popup>
+        clinique de la BD <br /> tel: 30.03.40
+      </Popup>
+    </Marker>
+ 
         </MapContainer>
     </div>
     </div>

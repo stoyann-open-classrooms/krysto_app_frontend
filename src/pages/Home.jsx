@@ -8,7 +8,7 @@ import designIcone from '../assets/icones/Fichier 13.svg'
 
 function Home() {
   return (
-    <>
+    <div className='page-content'>
     <section className="heading">
       <h1>Clean, Create, Recycle, Repeat</h1>
     <p>Re-Penser le design grâce au plastique reyclé</p>
@@ -51,7 +51,7 @@ function Home() {
         <h3>ce travaille comme le bois</h3>
       </div>
     </div>
-    </>
+    </div>
   );
 }
 

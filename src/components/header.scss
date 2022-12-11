@@ -1,0 +1,87 @@
+@import '../SASS/reset';
+@import '../SASS/variables';
+
+
+
+.header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1rem;
+    border-bottom: 1px solid $dark;
+    color: white;
+    margin-bottom: 1.5rem;
+    background-color: $dark;
+    .toggle-nav{
+        display: none;
+      position: absolute;
+      right: 1rem;
+      top: 2rem;
+      color: white;
+      // background-color: transparent; 
+    }
+    nav {
+        height: 3rem
+    }
+  }
+  
+  .header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header ul li {
+    margin-left: 20px;
+  }
+  
+  .header ul li a {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .header ul li a:hover {
+    color:  $primary;
+  }
+  
+  .header ul li a svg {
+    margin-right: 5px;
+  }
+  
+
+  @media screen and (max-width: 800px ) {
+      
+    .header {
+        .logo{
+            position: absolute;
+            left: 1rem;
+            top: 2rem;
+        }
+        justify-content: center;
+  
+       ul{
+        flex-direction: column;
+        height: auto;
+        top: 5rem;
+        width: 100%;
+        background-color: $dark;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-bottom: 2rem;
+        z-index: 9999999;
+
+       }
+        .toggle-nav{
+            display: block;
+          position: absolute;
+          right: 1rem;
+          top: 2rem;
+          color: white;
+        }
+      }
+
+  
+  }

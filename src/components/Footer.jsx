@@ -19,9 +19,6 @@ function Footer() {
             <p>Voir aussi</p>
             <ul>
               <li>
-                <Link to={'/charte'}>Charte du bon uttilisateur</Link>
-              </li>
-              <li>
                 <Link to={'/thanks'}>Remerciement</Link>
               </li>
             </ul>
@@ -32,18 +29,11 @@ function Footer() {
               <li>
                 <Link to={'/team'}>Qui sommes nous ?</Link>
               </li>
-              <li>
-                <Link to={'/compagny-solutions'}>Solutions entreprises</Link>
-              </li>
-              <li>
-                <Link to={'/legal-mention'}>Mention légales</Link>
-              </li>
+            
               <li>
                 <Link to={'/cgu'}>C.G.U</Link>
               </li>
-              <li>
-                <Link to={'/cgv'}>C.G.V</Link>
-              </li>
+             
             </ul>
           </div>
           <div className="footer-nav-section">

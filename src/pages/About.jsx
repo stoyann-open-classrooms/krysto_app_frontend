@@ -5,7 +5,7 @@ import waste from '../assets/image/Plastic-waste-ocean.jpg'
 
 function About() {
   return (
-    <>
+    <div className='page-content'>
     <section className="heading">
     <h1>Notre mission</h1>
       <img src={handImage} alt="" />
@@ -27,7 +27,7 @@ function About() {
       <h4>Produits</h4>
     </div>
   </div>
-    </>
+    </div>
   )
 }
 

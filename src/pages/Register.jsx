@@ -70,7 +70,7 @@ const {user, isLoading , isSuccess , message, isError} = useSelector(state => st
   const { name, email, password, password2 } = formData;
 
   return (
-    <>
+    <div className="page-content">
       <section className="heading">
         <h1>
           <FaUser /> 
@@ -131,7 +131,7 @@ const {user, isLoading , isSuccess , message, isError} = useSelector(state => st
           </div>
         </form>
       </section>
-    </>
+    </div>
   );
 }
 

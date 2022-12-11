@@ -83,7 +83,6 @@ h3 {
 
 .container {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0 0;
   text-align: center;
@@ -92,40 +91,7 @@ h3 {
 .page-content {
   min-height: 100vh;
   padding: 0 1rem;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 1rem;
-  border-bottom: 1px solid #333;
-  color: #333;
-  margin-bottom: 1.5rem;
-}
-
-.header ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header ul li {
-  margin-left: 20px;
-}
-
-.header ul li a {
-  display: flex;
-  align-items: center;
-  color: #333;
-}
-
-.header ul li a:hover {
-  color: #9097e1;
-}
-
-.header ul li a svg {
-  margin-right: 5px;
+  font-size: 1rem;
 }
 
 .heading {
@@ -137,7 +103,7 @@ h3 {
 
 .heading p {
   color: #828282;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .heading img {
@@ -149,7 +115,7 @@ h3 {
   max-width: 960px;
   text-align: left;
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .text-container h4 {
   font-size: 2rem;
@@ -519,10 +485,10 @@ footer {
   }
   .ticket-created h2,
 .heading h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .heading p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .leaflet-container {

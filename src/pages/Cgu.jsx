@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cgu() {
   return (
-    <>
+    <div className='page-content'>
       <section className="heading">
         <h1>Conditions générales d'utilisation</h1>
         <p>En vigueur au 02/12/2022</p>
@@ -234,7 +234,7 @@ function Cgu() {
           joindre l’éditeur aux coordonnées inscrites à l’Article 1.
         </p>
       </section>
-    </>
+    </div>
   )
 }
 
