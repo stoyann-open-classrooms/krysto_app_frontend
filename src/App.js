@@ -17,8 +17,12 @@ import Private from "./pages/private/Private";
 import PrivateHome from "./pages/private/PrivateHome";
 import Products from "./pages/Products";
 import ProOffers from "./pages/ProOffers";
+import RecyclableProducts from "./pages/RecyclableProducts";
 import Register from "./pages/Register";
 import RegisterPlan from "./pages/RegisterPlan";
+import Team from "./pages/Team";
+import Testimonials from "./pages/Testimonials";
+import Thanks from "./pages/Thanks";
 
 function App() {
   return (
@@ -35,6 +39,10 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/register-plan" element={<RegisterPlan />} />
             <Route path="/pro-offers" element={<ProOffers />} />
+            <Route path="/thanks" element={<Thanks/>} />
+            <Route path="/team" element={<Team/>} />
+            <Route path="/testimonials" element={<Testimonials/>} />
+            <Route path="/recyclable-products" element={<RecyclableProducts/>} />
             <Route path="/cgu" element={<Cgu />} />
             <Route path="/partners" element={<Partners />}>
               <Route path="/partners/resselers" element={<Resselers />} />

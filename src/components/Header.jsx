@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { GiHamburgerMenu} from 'react-icons/gi'
+import { ImCross} from 'react-icons/im'
 import {
   FaProductHunt,
   FaSignInAlt,
@@ -74,7 +76,9 @@ function Header() {
           </ul>
         )}
         <button onClick={toggleNav} className="toggle-nav btn">
-          Menu
+          {toggleMenu ?    <ImCross/>: <GiHamburgerMenu/>}
+          
+       
         </button>
       </nav>
     </header>

@@ -493,4 +493,11 @@ footer {
 }
 .leaflet-container {
   height: 30rem;
+}
+
+.contact-section {
+  margin-top: 3rem;
+}
+.contact-section .btn {
+  margin-top: 1rem;
 }/*# sourceMappingURL=index.css.map */

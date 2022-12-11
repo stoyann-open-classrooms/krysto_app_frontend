@@ -1,11 +1,17 @@
 import {CircleMarker, MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
+import { Link } from 'react-router-dom'
 
 function CollectPoints() {
   return (
     <div className="page-content">
 
+    <section className='heading'>
+        <h1>points de collecte</h1>
+        <p>Trouver un point de collecte prés de chez  vous</p>
+    </section>
     <section>
-        <h1>trouver un points de collecte</h1>
+      Vous pouvez ammener en points de collecte la plupart des plastiques (bouchons de bouteille, bouteille de shampoing, lessive , bacs de glace...) cependant certains type de plastique ne sont encore pas recyclable par KRYSTO comme par exemple les bouteilles d'eau ou de soda ce type de plastique est trés facile a reconnaitre il est génèralement transparent  
+       <Link  className='btn btn-block' to={'/recyclable-products'}> Liste des articles recyclable par Krysto</Link> 
     </section>
 
     <div className="leaflet-container">
@@ -47,6 +53,10 @@ function CollectPoints() {
  
         </MapContainer>
     </div>
+    <section className='contact-section'>
+  Vous êtes une entreprise une association ou un syndicat de propriéte et vous souhaiter mettre en place un point de collecte ?
+<Link className='btn'  to={'/pro-offers'}>contacter nous</Link>
+</section>
     </div>
   )
 }

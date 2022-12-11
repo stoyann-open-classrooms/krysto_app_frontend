@@ -5,6 +5,7 @@ import recyclableIcone from '../assets/icones/Fichier 3.svg'
  import transformIcone from '../assets/icones/Fichier 4.svg'
 import designIcone from '../assets/icones/Fichier 13.svg'
  import easyIcone from '../assets/icones/Fichier 10.svg'
+import HomeSlider from '../components/home/HomeSlider'
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
     <section className="heading">
       <h1>Clean, Create, Recycle, Repeat</h1>
     <p>Re-Penser le design grâce au plastique reyclé</p>
-    <img src={chair} alt="" />
+   <HomeSlider/>
     </section>
     <section className="heading">
       <h1>Des materiaux au service de l'environement</h1>
