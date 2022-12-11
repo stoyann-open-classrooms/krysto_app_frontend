@@ -23,7 +23,7 @@ function Header() {
   const [width, setWidth] = useState(window.innerWidth);
   const token = JSON.parse(localStorage.getItem('userToken'))
   const {user} = useSelector((state) => state.auth)
-console.log(user);
+
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
   };
