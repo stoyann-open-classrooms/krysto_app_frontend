@@ -34,8 +34,9 @@ function Login() {
       toast.error(message)
     }
     // redirect when logged in
-    if (isSuccess || user) {
-      navigate('/')
+    if (isSuccess) {
+      navigate('/private/private-home')
+      toast.success("Vous etes connecter")
     }
 
     dispatch(reset())

@@ -40,8 +40,6 @@ function Footer() {
             <p>Presse</p>
             <ul>
               <li>
-
-
             <Link to={'/testimonials'}>On parle de nous</Link>
               </li>
               <li>

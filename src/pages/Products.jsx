@@ -1,4 +1,4 @@
-import React from 'react'
+import ProductList from "../components/products/ProductList"
 
 function Products() {
   return (
@@ -6,6 +6,7 @@ function Products() {
 
     <section className="heading">
     <h1>Nos produits</h1>
+    <ProductList/>
   </section>
     </div>
   )

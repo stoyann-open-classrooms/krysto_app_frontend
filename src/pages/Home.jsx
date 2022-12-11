@@ -1,4 +1,3 @@
-import chair from '../assets/image/Poutres et planches/applications/bench.jpg'
 import localIcone from '../assets/icones/Fichier 12.svg'
 import hydroIcone from '../assets/icones/Fichier 14.svg'
 import recyclableIcone from '../assets/icones/Fichier 3.svg'
