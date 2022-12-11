@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-
 import { Outlet, Navigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 function Private() {
@@ -21,7 +20,7 @@ function Private() {
 
 
  
-    if (user === undefined || !user) {
+    if (user === undefined || !user || user === null) {
       
       return <Navigate to={'/login'} />
     }

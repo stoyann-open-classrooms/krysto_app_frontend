@@ -13,6 +13,7 @@ import Login from "./pages/Login";
 import Partners from "./pages/partners/Partners";
 import Recyclers from "./pages/partners/recyclers/Recyclers";
 import Resselers from "./pages/partners/resselers/Resselers";
+import CollectRequest from "./pages/private/CollectRequest";
 import Private from "./pages/private/Private";
 import PrivateHome from "./pages/private/PrivateHome";
 import Products from "./pages/Products";
@@ -51,6 +52,7 @@ function App() {
 
             <Route path="/private" element={<Private />}>
               <Route path="/private/private-home" element={<PrivateHome />} />
+              <Route path="/private/collect-request" element={<CollectRequest />} />
             </Route>
           </Routes>
           <Footer/>

@@ -29,16 +29,18 @@
   .header ul {
     display: flex;
     align-items: center;
+    margin-top: 1rem;
     justify-content: space-between;
   }
   
   .header ul li {
     margin-left: 20px;
-  }
-  
-  .header ul li a {
+}
+
+.header ul li a {
     display: flex;
     align-items: center;
+    font-size: 0.8rem;
     
   }
   
@@ -50,8 +52,20 @@
     margin-right: 5px;
   }
   
+  .logout-btn {
+    color: white;
+    display: flex;
+    align-items: center;
 
-  @media screen and (max-width: 800px ) {
+    svg{
+        margin-right: 0.3rem;
+    }
+    &:hover{
+        color: $primary;
+    }
+  }
+
+  @media screen and (max-width: 982px ) {
       
     .header {
         .logo{
@@ -64,7 +78,7 @@
        ul{
         flex-direction: column;
         height: auto;
-        top: 5rem;
+        top: 4rem;
         width: 100%;
         background-color: $dark;
         position: absolute;
@@ -86,5 +100,10 @@
         }
       }
 
-  
+    
+      .logout-btn {
+      
+        margin-top: 1rem;
+      
+      }
   }
