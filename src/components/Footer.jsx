@@ -65,7 +65,7 @@ function Footer() {
      
   
 
-        <p className='all-right-reserved'> KRYSTO.NC © Tous droits réservés - 2022</p>
+        <p className='all-right-reserved'> KRYSTO.NC © Tous droits réservés - 2023</p>
       </footer>
     </>
   )

@@ -6,10 +6,12 @@ import Header from "./components/Header";
 
 import "./index.css";
 import About from "./pages/About";
+
 import Cgu from "./pages/Cgu";
 import CollectPoints from "./pages/CollectPoints";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import NewRequest from "./pages/NewRequest";
 import Partners from "./pages/partners/Partners";
 import Recyclers from "./pages/partners/recyclers/Recyclers";
 import Resselers from "./pages/partners/resselers/Resselers";
@@ -40,10 +42,12 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/register-plan" element={<RegisterPlan />} />
             <Route path="/pro-offers" element={<ProOffers />} />
+            <Route path="/new-request" element={<NewRequest />} />
             <Route path="/thanks" element={<Thanks/>} />
             <Route path="/team" element={<Team/>} />
             <Route path="/testimonials" element={<Testimonials/>} />
             <Route path="/recyclable-products" element={<RecyclableProducts/>} />
+            
             <Route path="/cgu" element={<Cgu />} />
             <Route path="/partners" element={<Partners />}>
               <Route path="/partners/resselers" element={<Resselers />} />

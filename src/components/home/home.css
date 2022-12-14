@@ -1,9 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+input, textarea {
+  border: none;
+  width: 100%;
+  background-color: rgb(199, 199, 199);
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .swiper {
   width: 100%;
-  max-width: 990px;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
-  height: 32rem;
+  height: 40rem;
 }
 
 .swiper-slide img {
@@ -12,4 +55,75 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.home-hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  color: #9097e1;
+  color: #333;
+  height: 90vh;
+  background-position: 35% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-image: url("../../assets/image/extrusion-products.jpg");
+}
+.home-hero .btn {
+  margin-top: 69vh;
+}
+.home-hero h1 {
+  padding: 0 1rem;
+  background-color: rgba(0, 0, 0, 0.312);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.section-hero-details {
+  padding: 2rem 1rem;
+  height: auto;
+  background-color: #9097e1;
+}
+.section-hero-details h2 {
+  margin-bottom: 1rem;
+}
+.section-hero-details div {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.hero-collect {
+  background-color: #9097e1;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  height: auto;
+}
+.hero-collect h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+.hero-collect p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.material-home-section {
+  background-color: rgb(200, 200, 231);
+  height: auto;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  color: #333;
+}
+.material-home-section p {
+  font-size: 0.8ren;
+  margin-bottom: 2rem;
+}
+
+.home-method-section {
+  min-height: 100vh;
+  height: auto;
+  padding: 1rem;
 }/*# sourceMappingURL=home.css.map */

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function RegisterPlan() {
   return (
-    <>
+    <div className='page-content'>
       <section className="heading">
         <h1>Choisissez votre formule...</h1>
         <p>Engagement d'un mois renouvelable - résiliable à tout moment</p>
@@ -36,9 +36,9 @@ function RegisterPlan() {
       </div>
         <div className="pro">
        Vous êtes un professionel nous avons des solutions pour vous aider a recycler vos déchets.
-        <Link className='btn btn-block' to={'/pro-offers'}>Découvrir les offres Pro</Link>
+        <Link className='btn btn-block' to={'/pro-offers'}>Nous contacter</Link>
         </div>
-    </>
+    </div>
   )
 }
 

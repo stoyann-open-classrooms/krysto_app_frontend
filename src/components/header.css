@@ -45,30 +45,34 @@ button {
 }
 
 .header {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 1rem;
+  padding: 1rem 1rem;
   border-bottom: 1px solid #333;
   color: white;
-  margin-bottom: 1.5rem;
   background-color: #333;
 }
 .header .toggle-nav {
   display: none;
   position: absolute;
-  right: 1rem;
-  top: 2rem;
+  right: 0rem;
   color: white;
 }
+.header .toggle-nav:hover {
+  color: #9097e1;
+}
 .header nav {
-  height: 3rem;
+  height: 2rem;
 }
 
 .header ul {
   display: flex;
   align-items: center;
-  margin-top: 1rem;
   justify-content: space-between;
 }
 
@@ -109,7 +113,6 @@ button {
   .header .logo {
     position: absolute;
     left: 1rem;
-    top: 2rem;
   }
   .header ul {
     flex-direction: column;
@@ -121,13 +124,12 @@ button {
     left: 0;
     right: 0;
     padding-bottom: 2rem;
-    z-index: 9999999;
+    z-index: 99999999999;
   }
   .header .toggle-nav {
     display: block;
     position: absolute;
-    right: 1rem;
-    top: 1.5rem;
+    top: 0.3rem;
     color: white;
     background-color: transparent;
     border: none;

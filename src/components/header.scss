@@ -4,32 +4,37 @@
 
 
 .header {
-  
+ position: sticky;
+ z-index: 9999;
+ top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 1rem;
+    padding: 1rem 1rem;
     border-bottom: 1px solid $dark;
     color: white;
-    margin-bottom: 1.5rem;
+    // margin-bottom: 1.5rem;
     background-color: $dark;
     .toggle-nav{
         display: none;
       position: absolute;
-      right: 1rem;
-      top: 2rem;
+      right: 0rem;
+   
       color: white;
+      &:hover {
+        color: $primary;
+      }
       // background-color: transparent; 
     }
     nav {
-        height: 3rem
+        height: 2rem
     }
   }
   
   .header ul {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    
     justify-content: space-between;
   }
   
@@ -71,7 +76,7 @@
         .logo{
             position: absolute;
             left: 1rem;
-            top: 2rem;
+           
         }
         justify-content: center;
   
@@ -85,14 +90,14 @@
         left: 0;
         right: 0;
         padding-bottom: 2rem;
-        z-index: 9999999;
+        z-index: 99999999999;
 
        }
         .toggle-nav{
             display: block;
           position: absolute;
-          right: 1rem;
-          top: 1.5rem;
+        
+          top: 0.3rem;
           color: white;
           background-color: transparent;
           border: none;

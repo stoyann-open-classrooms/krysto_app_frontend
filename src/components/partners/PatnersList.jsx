@@ -36,7 +36,8 @@ console.log(partners);
       {partners.data
         ? partners.data.map((partner) => (
           <article className='card'>
-            <PartnerLocation location={partner.location}/>
+            
+            <img src={`http://localhost:5000/uploads/` + partner.photo} alt="" />
             <div className="card-content">
             <h3>{partner.name}</h3>
             <p>{partner.description}</p>

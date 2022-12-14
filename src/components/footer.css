@@ -46,12 +46,13 @@ button {
 
 .footer {
   background-color: #9097e1;
-  height: 20rem;
+  min-height: 20rem;
+  height: auto;
   margin-top: 10rem;
   padding: 1rem 1rem 1rem 2rem;
   width: 100%;
   z-index: 999999;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .social-media-container a {
@@ -65,10 +66,11 @@ button {
 .footer-nav-container {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .footer-nav-section p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: bolder;
   color: #333;

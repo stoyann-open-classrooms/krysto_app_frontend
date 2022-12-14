@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { getArticles, reset } from '../../features/article/articleSlice'
 import Spinner from '../../components/shared/spinner/Spinner'
 import './products.css'
-import img from '../../assets/image/Poutres et planches/applications/_DSF9396.JPG'
+import img from '../../assets/image/Poutres et planches/applications/beam_0.jpg'
 
 
 function ProductList() {
@@ -37,7 +37,7 @@ function ProductList() {
         ? articles.data.map((article) => (
        <article className='card' key={article._id}>
         <div className="article-card_img-container">
-            <img src={img} alt="" />
+        <img src={`http://localhost:5000/uploads/` + article.photo} alt="" />
         </div>
         <h3>{article.name}</h3>
         <p>{article.description}</p>
