@@ -7,29 +7,25 @@ function ProblemHero() {
     <section className="problem-hero">
       <div className="hero-heading">
         <h2>Le problème du plastique</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto,
-          dolorum.
-        </p>
+        <blockquote>
+        À travers le monde, 73 % des déchets sur les plages sont du plastique : filtres de cigarettes, bouteilles, bouchons, emballages alimentaires, sacs ou bacs en polystyrène.
+        </blockquote>
+        <figcaption><cite>National Geographic</cite> </figcaption>
       </div>
 
       <div className="tortue-container">
         <img src={plasticPollution} alt="" />
       </div>
       <p className="hero-txt">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius
-        doloremque consectetur iste soluta cupiditate a quas architecto ipsam
-        quos odio, quibusdam qui. Sit enim maxime sequi odit quis consectetur!
-        Porro iusto incidunt nihil suscipit sed at tenetur possimus asperiores,
-        illum eveniet quasi. Esse laborum soluta consequatur? Vitae, harum iste.
+       Les plastiques ne contaminent pas seulement les côtes. En effet, ils affectent toute la faune marine. Les animaux se coincent dans les plus grands déchets et confondent les petits fragments de plastique avec de la nourriture, ce qui peut provoquer leur intoxication et leur coûter la vie.
       </p>
 
       <div className="hero-heading">
-        <h2>Le problème du plastique</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto,
-          dolorum.
-        </p>
+        <h2>Un désastre pour la faune et la flore marine</h2>
+        <blockquote>
+       D'ici 2050, toutes les espèces d'oiseaux marins mangeront du plastique régulierement.
+        </blockquote>
+        <figcaption><cite>National Geographic</cite> </figcaption>
       </div>
       <div className="microplastique-container">
         <img src={microPlasticPollution} alt="" />

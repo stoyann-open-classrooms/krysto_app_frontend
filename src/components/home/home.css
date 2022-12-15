@@ -163,6 +163,7 @@ button {
 }
 
 .hero-collect-explain {
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,6 +171,7 @@ button {
 }
 .hero-collect-explain .hero-collect-explain-img {
   width: 100%;
+  max-width: 600px;
 }
 .hero-collect-explain .hero-collect-explain-img img {
   width: 100%;

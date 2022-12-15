@@ -4,7 +4,7 @@ function Thanks() {
   return (
     <div className='page-content'>
         <section className="heading">
-            <h1>Remerciement</h1>
+            <h1>Remerciements</h1>
         </section>
     </div>
   )

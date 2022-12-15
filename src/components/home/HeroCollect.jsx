@@ -7,6 +7,10 @@ function HeroCollect() {
   return (
     <section className="hero-collect">
     <h3>L'assurance que vos déchets soient bien recyclés</h3>
+    <blockquote>
+      Depuis 2015, plus de 6.9 milliards de tonnes de plastique ont étè produites. Environ 9 % ont été recyclés, 12 % incinérés et 79 % ont été accumulé dans des décharges ou dans la nature.
+        </blockquote>
+        <figcaption><cite>National Geographic</cite> </figcaption>
      <div className="hero-collect-explain">
     <div className="hero-collect-explain-img">
       <img src={landFill} alt="" />
