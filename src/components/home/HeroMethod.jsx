@@ -1,27 +1,38 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import extrudeMethod from '../../assets/image/extruder_design.svg'
-import injectionMethod from '../../assets/image/injection_design.svg'
+
+import processMethod from '../../assets/image/process-3.jpg'
+import ppProducts from '../../assets/image/pp_products.jpg'
 
 
 function HeroMethod() {
   return (
+
+<>
     <section className="home-method-section">
-    <h3>Une proceder de recyclage innovant</h3>
+    <h3>Un procedé de recyclage innovant</h3>
     <p>
-      Nos productions ce différencient des alternatives actuellement
-      disponible sur le marché car elles peuvent être a nouveaux recyclées
-      et benneficie d'une qualité esthétique impossible à obtenir avec les
-      methodes de recyclage classiques.
+      Nos productions se différencient des alternatives actuellement
+      disponibles sur le marché car elles peuvent être à nouveaux recyclées
+      et bénéficient d'une qualité esthétique impossible à obtenir avec les
+      méthodes de recyclage classiques.
     </p>
-    <h3>Extrusion</h3>
-    <img src={extrudeMethod} alt="" />
-    <h3>Injection</h3>
-    <img src={injectionMethod} alt="" />
-  <Link to={"/"} className="btn btn-cta">
+   
+
+    <div className="image-container">
+    <img src={processMethod} alt="" />
+    </div>
+
+  <Link to={"/product-method"} className="btn btn-cta">
     Découvir notre mode de production
   </Link>
   </section>
+
+  <div className="container-img-bottom">
+    <img src={ppProducts} alt="" />
+  </div>
+   
+</>
   )
 }
 

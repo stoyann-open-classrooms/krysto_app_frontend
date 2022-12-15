@@ -76,7 +76,7 @@ button {
 }
 .home-hero h1 {
   padding: 0 1rem;
-  background-color: rgba(0, 0, 0, 0.312);
+  background-color: #9097e1;
   border-radius: 10px;
   padding: 1rem;
 }
@@ -126,4 +126,51 @@ button {
   min-height: 100vh;
   height: auto;
   padding: 1rem;
+}
+
+.problem-hero {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.tortue-container {
+  width: 100%;
+}
+.tortue-container img {
+  width: 100%;
+}
+
+.microplastique-container {
+  width: 100%;
+}
+.microplastique-container img {
+  width: 100%;
+}
+
+.hero-heading {
+  max-width: 1400px;
+  margin: 2rem auto;
+}
+.hero-heading h2 {
+  margin-bottom: 1rem;
+}
+
+.hero-txt {
+  display: flex;
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-collect-explain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-collect-explain .hero-collect-explain-img {
+  width: 100%;
+}
+.hero-collect-explain .hero-collect-explain-img img {
+  width: 100%;
 }/*# sourceMappingURL=home.css.map */

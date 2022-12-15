@@ -6,12 +6,13 @@ import HomeSlider from "../components/home/HomeSlider";
 import HeroCollect from "../components/home/HeroCollect";
 import HeroMaterial from "../components/home/HeroMaterial";
 import HeroMethod from "../components/home/HeroMethod";
+import ProblemHero from "../components/home/ProblemHero";
 
 function Home() {
   return (
     <div>
       <HomeHero />
-
+      <ProblemHero/>  
       <HeroDetails />
       <HomeSlider />
       <HeroCollect />

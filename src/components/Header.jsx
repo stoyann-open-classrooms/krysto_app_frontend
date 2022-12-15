@@ -64,7 +64,7 @@ function Header() {
             </li>
             <li>
               <Link to={"/collect-points"}>
-                 points de collecte
+                 Points de collecte
               </Link>
             </li>
             <li>
@@ -82,7 +82,7 @@ function Header() {
                 <>
             <li>
               <Link to={"/private/collect-request"}>
-                 demander une collecte
+                 Demander une collecte
               </Link>
             </li>
             <li>
@@ -92,7 +92,7 @@ function Header() {
             </li>
             <li>
               <button className="logout-btn" onClick={onLogout}>
-                <FaSignInAlt /> deconnection
+                <FaSignInAlt /> Deconnection
               </button>
             </li>
           </>

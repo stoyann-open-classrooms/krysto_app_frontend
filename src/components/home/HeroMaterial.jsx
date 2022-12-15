@@ -9,13 +9,13 @@ import easyIcone from "../../assets/icones/Fichier 10.svg";
 function HeroMaterial() {
   return (
     <section className="material-home-section">
-        <h3>Un nouveaux materiaux écologique, design et colorée</h3>
+        <h3>Un nouveaux materiau écologique, design et coloré</h3>
         <p>
           Les avantages des poutres et planches <strong>KRYSTO</strong> en
           rapport aux matériaux plus "conventionnels" sont les motifs et
-          l'effets marbré obtenus grâce au tri par couleur des plastiques. Ce
-          qui rend chaque article unique. Leur imperméabilité les rend idéales
-          pour les usages éxterieur.
+          l'effet marbré obtenus grâce au tri par couleur des plastiques. Ce
+          qui rend chaque article unique. Leur imperméabilité les rendent idéals
+          pour les usages en exterieur.
         </p>
         <div className="boxes">
         <div className="little-boxe">
@@ -39,11 +39,11 @@ function HeroMaterial() {
         </div>
         <div className="little-boxe">
           <img src={designIcone} alt="" />
-          <h3>Colorée & design</h3>
+          <h3>Coloré & design</h3>
         </div>
         <div className="little-boxe">
           <img src={easyIcone} alt="" />
-          <h3>ce travaille comme le bois</h3>
+          <h3>Se travaille comme le bois</h3>
         </div>
       </div>
   

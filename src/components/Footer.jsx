@@ -19,7 +19,7 @@ function Footer() {
             <p>Voir aussi</p>
             <ul>
               <li>
-                <Link to={'/thanks'}>Remerciement</Link>
+                <Link to={'/thanks'}>Remerciements</Link>
               </li>
             </ul>
           </div>

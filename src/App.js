@@ -6,18 +6,20 @@ import Header from "./components/Header";
 
 import "./index.css";
 import About from "./pages/About";
-
 import Cgu from "./pages/Cgu";
 import CollectPoints from "./pages/CollectPoints";
+import Files from "./pages/Files";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NewRequest from "./pages/NewRequest";
 import Partners from "./pages/partners/Partners";
 import Recyclers from "./pages/partners/recyclers/Recyclers";
 import Resselers from "./pages/partners/resselers/Resselers";
+import PressKit from "./pages/PressKit";
 import CollectRequest from "./pages/private/CollectRequest";
 import Private from "./pages/private/Private";
 import PrivateHome from "./pages/private/PrivateHome";
+import ProductMethod from "./pages/ProductMethod";
 import Products from "./pages/Products";
 import ProOffers from "./pages/ProOffers";
 import RecyclableProducts from "./pages/RecyclableProducts";
@@ -47,7 +49,9 @@ function App() {
             <Route path="/team" element={<Team/>} />
             <Route path="/testimonials" element={<Testimonials/>} />
             <Route path="/recyclable-products" element={<RecyclableProducts/>} />
-            
+            <Route path="/product-method" element={<ProductMethod/>} />
+            <Route path="/files" element={<Files/>} />
+            <Route path="/press-kit" element={<PressKit />} />
             <Route path="/cgu" element={<Cgu />} />
             <Route path="/partners" element={<Partners />}>
               <Route path="/partners/resselers" element={<Resselers />} />

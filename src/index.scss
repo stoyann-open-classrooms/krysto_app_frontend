@@ -52,6 +52,9 @@ h3 {
   min-height: 100vh;
   padding: 0 1rem;
   font-size: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 
@@ -397,5 +400,20 @@ footer {
   span {
     font-size: 7rem;
     color: $primary;
+  }
+}
+
+
+
+.image-container{
+  width: 100%;
+  max-width: 600px;
+ margin: 2rem auto;
+
+  img{
+    width: 100%;
+  
+   
+
   }
 }

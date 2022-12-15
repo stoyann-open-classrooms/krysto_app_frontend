@@ -91,6 +91,9 @@ h3 {
   min-height: 100vh;
   padding: 0 1rem;
   font-size: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .heading {
@@ -411,4 +414,13 @@ footer {
 .section-title span {
   font-size: 7rem;
   color: #9097e1;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.image-container img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
