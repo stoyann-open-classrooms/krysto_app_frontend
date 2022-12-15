@@ -13,6 +13,7 @@ import Files from "./pages/Files";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NewRequest from "./pages/NewRequest";
+import NotFound from "./pages/NotFound";
 import Partners from "./pages/partners/Partners";
 import Recyclers from "./pages/partners/recyclers/Recyclers";
 import Resselers from "./pages/partners/resselers/Resselers";
@@ -55,6 +56,7 @@ function App() {
             <Route path="/product-method" element={<ProductMethod/>} />
             <Route path="/files" element={<Files/>} />
             <Route path="/press-kit" element={<PressKit />} />
+            <Route path="*" element={<NotFound />} />
             <Route path="/cgu" element={<Cgu />} />
             <Route path="/partners" element={<Partners />}>
               <Route path="/partners/resselers" element={<Resselers />} />

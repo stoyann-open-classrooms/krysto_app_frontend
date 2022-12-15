@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-animation: loader-anim infinite 10s linear;
+          animation: loader-anim infinite 10s linear;
 }
 .loadingSpinnerContainer img {
   height: 200px;

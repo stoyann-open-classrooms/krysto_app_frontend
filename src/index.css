@@ -424,4 +424,43 @@ footer {
 }
 .image-container img {
   width: 100%;
+}
+
+.not-found-container {
+  background-color: #333;
+  padding-top: 1rem;
+  color: white;
+  height: 100vh;
+}
+.not-found-container h1 {
+  font-size: 4rem;
+}
+
+.loader-not-found {
+  width: 60%;
+  max-width: 500px;
+  margin: 2rem auto;
+  -webkit-animation: loader-anim infinite 10s linear;
+          animation: loader-anim infinite 10s linear;
+}
+.loader-not-found img {
+  width: 100%;
+}
+
+@-webkit-keyframes loader-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=index.css.map */

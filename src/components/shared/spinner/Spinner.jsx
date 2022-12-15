@@ -1,10 +1,11 @@
 import React from 'react'
 import Dots from '../../../assets/dots.gif'
+import Loader from '../../../assets/krysto_loader.svg'
 import './spinner.css'
 function Spinner() {
   return (
     <div className='loadingSpinnerContainer'>
-        <img src={Dots} alt="" />
+        <img src={Loader} alt="" />
     </div>
   )
 }

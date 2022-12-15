@@ -414,7 +414,37 @@ footer {
   img{
     width: 100%;
   
-   
+  }
+}
 
+.not-found-container{
+  background-color: $dark;
+  padding-top: 1rem;
+  color: white;
+  height: 100vh;
+  h1{
+    font-size: 4rem;
+   
+  }
+}
+
+.loader-not-found{
+  width: 60%;
+  max-width: 500px;
+  margin: 2rem auto;
+  animation: loader-anim  infinite 10s linear;
+
+  img {
+    width: 100%;
+
+  }
+}
+
+@keyframes loader-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
