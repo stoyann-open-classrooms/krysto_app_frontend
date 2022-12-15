@@ -48,9 +48,9 @@ button {
   background-color: #9097e1;
   min-height: 20rem;
   height: auto;
+  z-index: 222;
   padding: 1rem 1rem 1rem 2rem;
   width: 100%;
-  z-index: 999999;
   font-size: 1rem;
 }
 

@@ -46,6 +46,11 @@ function Header() {
   }
 
   return (
+    <>
+    {
+      toggleMenu ?   <div onClick={toggleNav} className="overlay"></div>   : ""
+    }
+    
     <header className="header">
       <div className="logo">
         <Link to={"/"}>
@@ -79,7 +84,7 @@ function Header() {
               </Link>
             </li>
             { user ? (
-                <>
+              <>
             <li>
               <Link to={"/private/collect-request"}>
                  Demander une collecte
@@ -120,6 +125,7 @@ function Header() {
         </button>
       </nav>
     </header>
+          </>
   );
 }
 

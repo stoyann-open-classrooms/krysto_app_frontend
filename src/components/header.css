@@ -44,6 +44,16 @@ button {
   cursor: pointer;
 }
 
+.overlay {
+  position: absolute;
+  background-color: rgba(7, 48, 72, 0.426);
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  z-index: 3333;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
