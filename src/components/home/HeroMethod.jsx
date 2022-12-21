@@ -47,11 +47,20 @@ function HeroMethod() {
         production d'articles durables et écologiques en plastique recyclé à
         partir de déchets collectés en Nouvelle-Calédonie. Nous pouvons créer
         des moules personnalisés selon vos spécifications et vos besoins, et les
-        personnaliser avec votre logo. N'hésitez pas à nous contacter via le
-        formulaire de contact pour discuter ensemble de votre projet et trouver
-        ensemble une solution durable et écologique a l'image de votre
-        entreprise.
+        personnaliser avec votre logo.
+        
       </p>
+        <p>
+          
+         N'hésitez pas à nous contacter pour toute
+        question ou pour discuter de votre projet de production de produits en
+        plastique recyclé. Nous sommes à votre disposition pour répondre à
+        toutes vos questions et vous aider à développer des solutions durables
+        et responsables pour votre entreprise. Nous sommes impatients de mettre
+        notre expertise en matière de production en plastique recyclé au service
+        de votre image de marque et de votre engagement en faveur de
+        l'environnement.
+        </p>
       <Link className="btn btn-block"> Contacter-nous</Link>
 
       <div className="container-img-bottom">
