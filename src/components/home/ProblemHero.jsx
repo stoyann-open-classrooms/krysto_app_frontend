@@ -31,12 +31,7 @@ function ProblemHero() {
         <img src={microPlasticPollution} alt="" />
       </div>
       <p className="hero-txt">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem optio
-        doloremque aut impedit tempore et recusandae inventore, consequatur,
-        deleniti iure at facilis repellat perspiciatis nulla nihil. Laboriosam
-        maiores mollitia, veniam inventore molestiae laudantium est amet,
-        repellendus nam dolores alias? Provident voluptatem adipisci sed vero
-        dolor ducimus molestias? Illo, magni consequatur.
+      L'océan Pacifique Sud est également gravement touché par la pollution plastique, avec la présence d'un "continent de plastique" appelé "South Pacific Garbage Patch", qui est un amas de déchets flottants de la taille de cinq fois la Grande Terre de la Nouvelle-Calédonie. Si la situation est alarmante, les conséquences sur notre environnement sont également graves. En apportant vos déchets plastique dans les points de collecte Krysto ou en choisissant une des options de collecte à domicile, vous pouvez être sûr à 100% que les déchets que vous avez triés seront effectivement recyclés.
       </p>
     </section>
   );

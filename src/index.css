@@ -93,8 +93,7 @@ h3 {
   padding: 0 1rem;
   font-size: 1rem;
   max-width: 1400px;
-  margin: 0 auto;
-  margin-top: 2rem;
+  margin: 2rem auto 4rem auto;
 }
 
 .heading {
@@ -244,6 +243,7 @@ h3 {
 .btn-block {
   width: 100%;
   margin-bottom: 20px;
+  background-color: #62ebca;
 }
 
 .btn-cta {
@@ -463,4 +463,25 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+.plastic-type-container {
+  margin: 2rem 0;
+}
+.plastic-type-container h4 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  background-color: #9097e1;
+}
+.plastic-type-container .red {
+  color: red;
+  font-weight: bolder;
+}
+.plastic-type-container .orange {
+  margin: 1rem 0;
+  color: orange;
+  font-weight: bolder;
+}
+.plastic-type-container .green {
+  color: green;
+  font-weight: bolder;
 }/*# sourceMappingURL=index.css.map */

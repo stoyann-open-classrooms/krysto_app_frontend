@@ -7,6 +7,7 @@ import HeroCollect from "../components/home/HeroCollect";
 import HeroMaterial from "../components/home/HeroMaterial";
 import HeroMethod from "../components/home/HeroMethod";
 import ProblemHero from "../components/home/ProblemHero";
+import HeroSunglasses from "../components/home/HeroSunglasses";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <HomeSlider />
       <HeroCollect />
       <HeroMaterial />
+      <HeroSunglasses/>
 
       <HeroMethod />
 

@@ -10,9 +10,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-animation: loader-anim infinite 10s linear;
-          animation: loader-anim infinite 10s linear;
+  z-index: 9999999;
 }
 .loadingSpinnerContainer img {
+  margin-top: 6rem;
+  -webkit-animation: loader-anim infinite 10s linear;
+          animation: loader-anim infinite 10s linear;
   height: 200px;
+  z-index: 999999;
 }/*# sourceMappingURL=spinner.css.map */

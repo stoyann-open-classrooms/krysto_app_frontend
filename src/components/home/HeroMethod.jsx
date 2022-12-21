@@ -1,39 +1,64 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import processMethod from '../../assets/image/process-3.jpg'
-import ppProducts from '../../assets/image/pp_products.jpg'
-
+import processMethod from "../../assets/image/process-3.jpg";
+import ppProducts from "../../assets/image/pp_products.jpg";
 
 function HeroMethod() {
   return (
+    <>
+      <section className="hero-collect">
+        <h3>Un procedé de recyclage innovant</h3>
+        <p>
+          Nos productions se différencient des alternatives actuellement
+          disponibles sur le marché car elles peuvent être à nouveaux recyclées
+          et bénéficient d'une qualité esthétique impossible à obtenir avec les
+          méthodes de recyclage classiques.
+        </p>
 
-<>
-    <section className="home-method-section">
-    <h3>Un procedé de recyclage innovant</h3>
-    <p>
-      Nos productions se différencient des alternatives actuellement
-      disponibles sur le marché car elles peuvent être à nouveaux recyclées
-      et bénéficient d'une qualité esthétique impossible à obtenir avec les
-      méthodes de recyclage classiques.
-    </p>
-   
+        <div className="image-container">
+          <img src={processMethod} alt="" />
+        </div>
 
-    <div className="image-container">
-    <img src={processMethod} alt="" />
-    </div>
+        <Link to={"/product-method"} className="btn btn-block">
+          Découvir notre mode de production
+        </Link>
+      </section>
+      <h2>
+        Positionnez votre entreprise comme leader de l'éco-responsabilité avec
+        les moules sur mesure Krysto
+      </h2>
+      <p>
+        Chez Krysto, nous offrons la possibilité de concevoir des moules sur
+        mesure pour créer des articles durables et écologiques qui correspondent
+        à l'image de votre entreprise. Grâce à notre expertise en matière de
+        techniques d'injection et d'extrusion, nous pouvons produire des pièces
+        en plastique de qualité supérieure à partir de matières recyclées. Nos
+        moules en aluminium de qualité garantissent la précision et la qualité
+        de chaque produit. En optant pour le plastique recyclé et en faisant
+        concevoir des moules sur mesure, vous contribuez à la réduction de la
+        pollution plastique et à la création de produits de qualité, tout en
+        soutenant l'économie locale. En utilisant des produits fabriqués à
+        partir de plastique recyclé, vous pouvez non seulement améliorer votre
+        image de marque en montrant votre engagement en faveur de
+        l'environnement, mais vous pouvez également vous démarquer de vos
+        concurrents en proposant des produits uniques et durables.Votre
+        engagement en faveur de l'environnement se concrétisera par la
+        production d'articles durables et écologiques en plastique recyclé à
+        partir de déchets collectés en Nouvelle-Calédonie. Nous pouvons créer
+        des moules personnalisés selon vos spécifications et vos besoins, et les
+        personnaliser avec votre logo. N'hésitez pas à nous contacter via le
+        formulaire de contact pour discuter ensemble de votre projet et trouver
+        ensemble une solution durable et écologique a l'image de votre
+        entreprise.
+      </p>
+      <Link className="btn btn-block"> Contacter-nous</Link>
 
-  <Link to={"/product-method"} className="btn btn-cta">
-    Découvir notre mode de production
-  </Link>
-  </section>
-
-  <div className="container-img-bottom">
-    <img src={ppProducts} alt="" />
-  </div>
-   
-</>
-  )
+      <div className="container-img-bottom">
+        <img src={ppProducts} alt="" />
+      </div>
+    </>
+  );
 }
 
-export default HeroMethod
+export default HeroMethod;

@@ -54,8 +54,8 @@ position: relative;
   padding: 0 1rem;
   font-size: 1rem;
   max-width: 1400px;
-  margin: 0 auto;
-  margin-top: 2rem;
+  margin: 2rem auto 4rem auto;
+
 }
 
 
@@ -210,6 +210,7 @@ margin-bottom: 1.2rem;
 .btn-block {
   width: 100%;
   margin-bottom: 20px;
+  background-color: $secondary;
 }
 
 .btn-cta {
@@ -446,5 +447,28 @@ footer {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.plastic-type-container{
+  margin: 2rem 0;
+  h4 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    background-color: $primary;
+  }
+  .red{
+    color: red;
+    font-weight: bolder;
+  }
+  .orange{
+    margin: 1rem 0;
+    color: orange;
+    font-weight: bolder;
+  }
+  .green {
+    color: green;
+    font-weight: bolder;
   }
 }
