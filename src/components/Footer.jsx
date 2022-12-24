@@ -19,7 +19,7 @@ function Footer() {
             <p>Voir aussi</p>
             <ul>
               <li>
-                <Link to={'/thanks'}>Remerciements</Link>
+                <Link to={'/remmerciements'}>Remerciements</Link>
               </li>
             </ul>
           </div>
@@ -27,11 +27,11 @@ function Footer() {
             <p>A propos</p>
             <ul>
               <li>
-                <Link to={'/team'}>Qui sommes nous ?</Link>
+                <Link to={'/equipe-krysto'}>Qui sommes nous ?</Link>
               </li>
             
               <li>
-                <Link to={'/cgu'}>C.G.U</Link>
+                <Link to={'/condition-generale-uttilisation'}>C.G.U</Link>
               </li>
              
             </ul>
@@ -40,7 +40,7 @@ function Footer() {
             <p>Presse</p>
             <ul>
               <li>
-            <Link to={'/testimonials'}>On parle de nous</Link>
+            <Link to={'/on-parle-de-nous'}>On parle de nous</Link>
               </li>
               <li>
 
@@ -48,7 +48,7 @@ function Footer() {
               </li>
               <li>
 
-            <Link to={'/files'}>Flyers/Affiches/Visuels</Link>
+            <Link to={'/fichiers-a-telecharger'}>Flyers/Affiches/Visuels</Link>
               </li>
             </ul>
           </div>

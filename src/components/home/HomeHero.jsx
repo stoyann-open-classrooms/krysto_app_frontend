@@ -8,7 +8,7 @@ function HomeHero() {
       <div className="home-hero-content">
         
         <h1>Des produits en plastique recylé pour un monde plus reponsable.</h1>
-        <Link className="btn btn-cta" to={"/products"}>
+        <Link className="btn btn-cta" to={"/nos-produits-categories"}>
           Découvrir nos produits
         </Link>
       </div>

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,300&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+input, textarea {
+  border: none;
+  width: 100%;
+  background-color: rgb(199, 199, 199);
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.plastic-type-container {
+  margin: 2rem 0;
+}
+.plastic-type-container h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #9097e1;
+}
+.plastic-type-container .red {
+  color: red;
+  font-weight: bolder;
+}
+.plastic-type-container .orange {
+  margin: 1rem 0;
+  color: orange;
+  font-weight: bolder;
+}
+.plastic-type-container .green {
+  color: green;
+  font-weight: bolder;
+}
+
+.plastic-icons {
+  height: 8rem;
+  width: auto;
+}
+.plastic-icons img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+.plastic-type-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.plastic-types-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.plastic-types-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.3rem 0;
+  font-weight: bolder;
+}
+.plastic-types-list li .plastic-icons {
+  margin: 1rem 3rem;
+}/*# sourceMappingURL=howToRecycle.css.map */

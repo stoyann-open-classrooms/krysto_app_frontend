@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/krysto/api/v1/auth'
+const API_URL = 'http://localhost:5500/krysto/api/v2/auth'
 
 // Register user
 const register = async (userData) => {

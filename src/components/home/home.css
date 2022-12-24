@@ -72,13 +72,15 @@ button {
   background-image: url("../../assets/image/extrusion-products.jpg");
 }
 .home-hero .btn {
-  margin-top: 69vh;
+  margin-top: 62vh;
 }
 .home-hero h1 {
+  font-size: 1.2rem;
   padding: 0 1rem;
   background-color: #9097e1;
   border-radius: 10px;
   padding: 1rem;
+  margin-top: 2rem;
 }
 
 .section-hero-details {
@@ -175,4 +177,41 @@ button {
 }
 .hero-collect-explain .hero-collect-explain-img img {
   width: 100%;
+}
+
+.problem-hero {
+  background-color: rgb(74, 74, 74);
+  color: lightblue;
+}
+.problem-hero figcaption {
+  margin: 1rem 0;
+}
+.problem-hero .hero-heading, .problem-hero p {
+  color: white;
+}
+
+.paralax {
+  background-image: url("../../assets/image/tortue_sac_plastique.png");
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.paralax2 {
+  background-image: url("../../assets/image/plastic-ocean.png");
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
 }/*# sourceMappingURL=home.css.map */

@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_URL = 'http://localhost:5000/krysto/api/v1/messages'
+const API_URL = 'http://localhost:5$500/krysto/api/v2/messages/'
 
 const getMessages = async () => {
   const response = await axios.get(`${API_URL}`)

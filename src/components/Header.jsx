@@ -63,33 +63,33 @@ function Header() {
            
 
                 <li>
-              <Link to={"/products"}>
+              <Link to={"/nos-produits-categories"}>
                  Nos produits
               </Link>
             </li>
             <li>
-              <Link to={"/collect-points"}>
+              <Link to={"/trouver-un-point-de-collecte"}>
                  Points de collecte
               </Link>
             </li>
             <li>
-              <Link to={"/partners"}>
+              <Link to={"/comment-recycler-efficacement"}>
+               Comment bien recycler
+              </Link>
+            </li>
+            <li>
+              <Link to={"/nos-partenaires"}>
                Partenaires
               </Link>
             </li>
 
 <li>
-              <Link to={"/about"}>
+              <Link to={"/a-propos"}>
                 A propos
               </Link>
             </li>
             { user ? (
               <>
-            <li>
-              <Link to={"/private/collect-request"}>
-                 Demander une collecte
-              </Link>
-            </li>
             <li>
               <Link to={"/private/private-home"}>
                  Mon profil
@@ -110,7 +110,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to={"/register-plan"}>
+            <Link to={"/nos-offre-de-collecte"}>
               <FaUser /> Inscription
             </Link>
           </li>
