@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {  getRecyclableProducts, reset } from '../../features/recyclableProduct/recyclableProductSlice'
 import Spinner from '../../components/shared/spinner/Spinner'
+import RecyclableProductsCard from './RecyclableProductsCard'
 
 
 
@@ -30,13 +31,13 @@ function RecyclableProductsList() {
   }
 
   return (
-    <>
+    <div className='flex-container'>
    {recyclableProducts.data
         ? recyclableProducts.data.map((recyclableProduct) => (
-           <p>{recyclableProduct.brand}</p>
+            <RecyclableProductsCard key={recyclableProduct._id} recyclableProduct={recyclableProduct}/>
           ))
         : ''}
-    </>
+    </div>
   )
 }
 

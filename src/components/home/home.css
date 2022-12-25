@@ -44,6 +44,24 @@ button {
   cursor: pointer;
 }
 
+.icones-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.icones-boxes div {
+  padding: 2rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  width: 300px;
+  margin: 2rem;
+}
+.icones-boxes h3 {
+  margin-top: 0rem;
+  font-size: 0.9rem;
+}
+
 .swiper {
   width: 100%;
   height: 40rem;
@@ -195,7 +213,7 @@ button {
   background-attachment: fixed;
   background-position: center;
   width: 100%;
-  height: 25rem;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;

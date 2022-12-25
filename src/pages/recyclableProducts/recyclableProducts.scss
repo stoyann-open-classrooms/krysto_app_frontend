@@ -1,0 +1,30 @@
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+
+.recyclableProduct-card {
+  background-color: $primary;
+  width: 300px;
+  margin: 1rem;
+  border-radius: $radius;
+  border: 3px solid $primary;
+
+  .recylableProduct-card-header {
+    height: 20rem;
+    padding: 1rem;
+    border-radius: $radius $radius 0 0;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+    }
+  }
+
+  .recyclableProduct-card-content {
+    padding: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}

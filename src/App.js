@@ -27,7 +27,7 @@ import ProductCategories from "./pages/productCategories/ProductCategories";
 import ProductMethod from "./pages/ProductMethod";
 
 import ProOffers from "./pages/ProOffers";
-import RecyclableProducts from "./pages/RecyclableProducts";
+import RecyclableProducts from "./pages/recyclableProducts/RecyclableProducts";
 import Register from "./pages/Register";
 import RegisterPlan from "./pages/RegisterPlan";
 import Team from "./pages/Team";

@@ -67,7 +67,7 @@ function HeroCollect() {
             un avenir plus durable.
           </p>
 
-          <Link to={"/"} className="btn btn-block"> consulter la liste des produits recyclable</Link>
+          <Link to={"/les-produits-recyclables"} className="btn btn-block"> consulter la liste des produits recyclable</Link>
 
         </div>
       </div>

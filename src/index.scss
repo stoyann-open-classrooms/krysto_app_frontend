@@ -64,6 +64,13 @@ position: relative;
 
 }
 
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
 
 
 // .heading {
@@ -129,16 +136,7 @@ position: relative;
 //   }
 // }
 
-// .boxes {
-//   display: grid;
-//   grid-template-columns: repeat(3, 1fr);
-//   gap: 20px;
-//   justify-content: space-between;
-//   align-items: center;
-//   text-align: center;
-//   margin-bottom: 30px;
 
-// }
 
 // .little-boxe img {
 // width: 3rem;
@@ -148,16 +146,7 @@ position: relative;
 //   width: 100%;
 // }
 
-// .boxes div {
-//   padding: 2rem;
-//   border: 1px solid #e6e6e6;
-//   border-radius: 10px;
-// }
 
-// .boxes h3 {
-//   margin-top: 0rem;
-//   font-size: 0.9rem
-// }
 
 // .boxes a:hover {
 //   color: #777;
@@ -313,15 +302,6 @@ position: relative;
   }
 }
 
-.flex-content{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1rem;
-  justify-content: center;
-
-
-
-}
 
 
 

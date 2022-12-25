@@ -4,6 +4,9 @@ import {  getPartners, reset } from '../../features/partner/partnerSlice'
 import Spinner from '../../components/shared/spinner/Spinner'
 import PartnerLocation from './PartnerLocation'
 
+import '../../pages/partners/partners.css'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -31,22 +34,29 @@ console.log(partners);
   }
 
   return (
-    <div className='flex-content'>
+    <div className='flex-container'>
   
       {partners.data
         ? partners.data.map((partner) => (
-          <article className='card'>
+          <article className='partner-card'>
+            <div className="partner-card-header">
+
+            <img src={`http://localhost:5500/uploads/` + partner.photo} alt= {partner.productName} />
+            </div>
             
-            <img src={`http://localhost:5000/uploads/` + partner.photo} alt="" />
-            <div className="card-content">
+            <div className="partner-card-content">
             <h3>{partner.name}</h3>
-            <p>{partner.description}</p>
+            <ul>
+                <li>Email : {partner.email}</li>
+                <li>Télèphone: {partner.phone}</li>
+                <li>Site internet: {partner.website}</li>
+              </ul>
+        
             </div>
-            <div className="card-footer">
-                <p>{partner.email}</p>
-                <p>{partner.phone}</p>
-                <p>{partner.website}</p>
-            </div>
+           
+              
+              <Link className="btn btn-block"> Voir le profil</Link>
+
           </article>
           ))
         : ''}

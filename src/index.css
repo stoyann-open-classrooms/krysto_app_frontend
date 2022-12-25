@@ -103,6 +103,12 @@ h1 {
   margin: 2rem auto 4rem auto;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .form {
   width: 70%;
   margin: 0 auto;
@@ -231,13 +237,6 @@ h1 {
 }
 .contact-section .btn {
   margin-top: 1rem;
-}
-
-.flex-content {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1rem;
-  justify-content: center;
 }
 
 .nb-collect {

@@ -1,0 +1,27 @@
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+
+
+.partner-card{
+    background-color: $primary;
+    border-radius: $radius;
+    width: 300px;
+    padding: 1rem;
+    .partner-card-header{
+        height: 20rem;
+        width: 100%;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .partner-card-content{
+        ul{
+
+            font-size: 0.8rem;
+        }
+        margin-bottom: 1rem;
+    }
+}
+
