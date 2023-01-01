@@ -42,28 +42,4 @@ button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
-
-.partner-card {
-  background-color: #9097e1;
-  border-radius: 5px;
-  width: 300px;
-  padding: 1rem;
-  margin: 1rem;
-}
-.partner-card .partner-card-header {
-  height: 10rem;
-  width: 100%;
-}
-.partner-card .partner-card-header img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.partner-card .partner-card-content {
-  margin-bottom: 1rem;
-}
-.partner-card .partner-card-content ul {
-  font-size: 0.8rem;
-}/*# sourceMappingURL=partners.css.map */
+}/*# sourceMappingURL=about.css.map */

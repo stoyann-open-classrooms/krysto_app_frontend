@@ -1,10 +1,10 @@
 import React from "react";
-import krysto from "../assets/image/shredderpro-output.jpg";
-import injectMethod from "../assets/image/injection_design.png";
-import extrudeMethod from "../assets/image/extruder_design.png";
+import krysto from "../../assets/image/shredderpro-output.jpg";
+import injectMethod from "../../assets/image/injection_design.png";
+import extrudeMethod from "../../assets/image/extruder_design.png";
 
-import injectProducts from "../assets/image/injection-products.jpg";
-import extrudeProducts from "../assets/image/extrusion-products.jpg";
+import injectProducts from "../../assets/image/injection-products.jpg";
+import extrudeProducts from "../../assets/image/extrusion-products.jpg";
 import { Link } from "react-router-dom";
 function ProductMethod() {
   return (

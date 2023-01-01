@@ -2,124 +2,131 @@
 @import '../SASS/variables';
 
 
-.overlay{
+.overlay {
   position: absolute;
   background-color: rgba(7, 48, 72, 0.426);
   top: 0;
   left: 0;
-   bottom: 0px;
+  bottom: 0px;
   right: 0;
-  z-index:  3333;
-  
+  z-index: 3333;
+
 }
 
 
 .header {
- position: sticky;
- z-index: 9999;
- top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1rem;
-    border-bottom: 1px solid $dark;
+   position: sticky;
+  z-index: 9999;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid $dark;
+  color: white;
+  // margin-bottom: 1.5rem;
+  background-color: $dark;
+
+  .toggle-nav {
+    display: none;
+    position: absolute;
+    right: 0rem;
+
     color: white;
-    // margin-bottom: 1.5rem;
-    background-color: $dark;
-    .toggle-nav{
-        display: none;
-      position: absolute;
-      right: 0rem;
-   
-      color: white;
-      &:hover {
-        color: $primary;
-      }
-      // background-color: transparent; 
+
+    &:hover {
+      color: $primary;
     }
-    nav {
-        height: 2rem
-    }
+
+    // background-color: transparent; 
   }
-  
-  .header ul {
-    display: flex;
-    align-items: center;
-    
-    justify-content: space-between;
+
+  nav {
+    height: 2rem
   }
-  
-  .header ul li {
-    margin-left: 20px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.header ul li {
+  margin-left: 20px;
 }
 
 .header ul li a {
-    display: flex;
-    align-items: center;
-    font-size: 0.8rem;
-    
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+
+}
+
+.header ul li a:hover {
+  color: $primary;
+}
+
+.header ul li a svg {
+  margin-right: 5px;
+}
+
+.logout-btn {
+  color: white;
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 0.3rem;
   }
-  
-  .header ul li a:hover {
-    color:  $primary;
+
+  &:hover {
+    color: $primary;
   }
-  
-  .header ul li a svg {
-    margin-right: 5px;
+}
+
+@media screen and (max-width: 982px) {
+
+  .header {
+    .logo {
+      position: absolute;
+      left: 1rem;
+
+    }
+
+    justify-content: center;
+
+    ul {
+      flex-direction: column;
+      height: auto;
+      top: 4rem;
+      width: 100%;
+      background-color: $dark;
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding-bottom: 2rem;
+      z-index: 99999999999;
+
+    }
+
+    .toggle-nav {
+      display: block;
+      position: absolute;
+
+      top: 0.3rem;
+      color: white;
+      background-color: transparent;
+      border: none;
+      font-size: 2rem;
+    }
   }
-  
+
+
   .logout-btn {
-    color: white;
-    display: flex;
-    align-items: center;
 
-    svg{
-        margin-right: 0.3rem;
-    }
-    &:hover{
-        color: $primary;
-    }
+    margin-top: 1rem;
+
   }
-
-  @media screen and (max-width: 982px ) {
-      
-    .header {
-        .logo{
-            position: absolute;
-            left: 1rem;
-           
-        }
-        justify-content: center;
-  
-       ul{
-        flex-direction: column;
-        height: auto;
-        top: 4rem;
-        width: 100%;
-        background-color: $dark;
-        position: absolute;
-        left: 0;
-        right: 0;
-        padding-bottom: 2rem;
-        z-index: 99999999999;
-
-       }
-        .toggle-nav{
-            display: block;
-          position: absolute;
-        
-          top: 0.3rem;
-          color: white;
-          background-color: transparent;
-          border: none;
-          font-size: 2rem;
-        }
-      }
-
-    
-      .logout-btn {
-      
-        margin-top: 1rem;
-      
-      }
-  }
+}

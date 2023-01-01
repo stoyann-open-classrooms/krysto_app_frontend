@@ -22,7 +22,7 @@ function Private() {
  
     if (user === undefined || !user || user === null) {
       
-      return <Navigate to={'/login'} />
+      return <Navigate to={'/connection'} />
     }
   else {
 

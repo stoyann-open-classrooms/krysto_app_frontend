@@ -1,0 +1,21 @@
+
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+
+
+
+.article-card{
+    background-color: $secondary;
+    margin: 1rem;
+    width: 300px;
+}
+
+.article-card_img-container{
+    width: 100%;
+    height: 10rem;
+    img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+}

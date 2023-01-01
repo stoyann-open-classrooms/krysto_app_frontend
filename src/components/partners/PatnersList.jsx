@@ -46,16 +46,12 @@ console.log(partners);
             
             <div className="partner-card-content">
             <h3>{partner.name}</h3>
-            <ul>
-                <li>Email : {partner.email}</li>
-                <li>Télèphone: {partner.phone}</li>
-                <li>Site internet: {partner.website}</li>
-              </ul>
+
         
             </div>
            
               
-              <Link className="btn btn-block"> Voir le profil</Link>
+              <Link to={`/partenaire/${partner._id}`} className="btn btn-block"> Voir le profil</Link>
 
           </article>
           ))

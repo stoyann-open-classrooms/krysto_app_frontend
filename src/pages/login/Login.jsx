@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { FaSignInAlt } from "react-icons/fa";
 import { useSelector, useDispatch } from "react-redux";
-import { login , reset } from "../features/auth/authSlice";
+import { login , reset } from "../../features/auth/authSlice";
 import { useNavigate } from "react-router-dom";
-import Spinner from "../components/shared/spinner/Spinner";
+import Spinner from "../../components/shared/spinner/Spinner";
 
 function Login() {
   const [formData, setFormData] = useState({

@@ -20,7 +20,12 @@ function CollectPoints() {
         Chez KRYSTO, nous sommes déterminés à recycler un maximum de types de
         plastique. Pour l'instant, nous recyclons notamment les bouchons de
         bouteille, les bouteilles de shampoing, les bouteilles de lessive, les
-        bacs de glace... Ces types de plastique peuvent être identifiés grâce aux symboles 5 ou 2. Cependant, il y a
+        bacs de glace... 
+        </p>
+        <p>
+
+        
+        Ces types de plastique peuvent être identifiés grâce aux symboles 5 ou 2. Cependant, il y a
         actuellement quelques types de plastique que nous ne sommes pas encore
         en mesure de recycler, comme les bouteilles d'eau et de soda en
         plastique PET, qui sont facilement reconnaissables car elles sont
@@ -28,14 +33,9 @@ function CollectPoints() {
         nouveaux types de plastique dans notre gamme de produits recyclables,
         comme le polystyrène par exemple qui comporte des propriétes trés interessentes,il est semblable a du verres et peut être polie, nous espérons pouvoir inclure d'autres types de
         plastique dans le futur tout en vous proposant des produits de qualité.
-        En attendant, vous pouvez consulter notre liste de produits recyclables
-        pour connaître les types de plastique que nous sommes actuellement en
-        mesure de recycler.
         </p>
-        <Link className="btn btn-block" to={"/recyclable-products"}>
-          {" "}
-          Liste des articles recyclable par Krysto
-        </Link>
+    
+       
       </section>
 
       <div className="leaflet-container">
@@ -81,10 +81,18 @@ function CollectPoints() {
           </Marker>
         </MapContainer>
       </div>
+
+      <section>
+      <Link className="btn btn-block" to={"/recyclable-products"}>
+          {" "}
+          Liste des articles recyclable par Krysto
+        </Link>
+      </section>
       <section className="contact-section">
+ 
         Vous êtes une entreprise une association ou un syndicat de propriéte et
         vous souhaiter mettre en place un point de collecte ?
-        <Link className="btn" to={"/pro-offers"}>
+        <Link className="btn" to={"/offre-proffesionel"}>
           contacter nous
         </Link>
       </section>

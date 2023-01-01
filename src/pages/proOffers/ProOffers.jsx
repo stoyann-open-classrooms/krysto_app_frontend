@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "../components/shared/ContactForm";
+import ContactForm from "../../components/shared/ContactForm";
 
 function ProOffers() {
   return (

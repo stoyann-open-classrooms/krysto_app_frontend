@@ -4,6 +4,7 @@ import { getProfil, reset } from "../../features/user/userSlice";
 import Spinner from "../../components/shared/spinner/Spinner";
 import { Link } from "react-router-dom";
 import userService from "../../features/user/userService";
+import HomeAdminArea from "../../components/private/admin/HomeAdminArea";
 
 function PrivateHome() {
   const { profil, isLoading, isError, isSuccess } = useSelector(
@@ -21,27 +22,42 @@ function PrivateHome() {
 
   useEffect(() => {
     dispatch(getProfil());
+    
   }, []);
+
 
   console.log(profil.data);
 
   if (!profil.data || isLoading) {
+    
     return <Spinner />;
   } else {
     return (
       <div className="page-content">
-        <section className="heading">
-          <h1>Bienvenue {profil.data.name} Nous sommes content de vous revoir</h1>
-        </section>
-        {profil.data.role === "partners" ? <section>
-        <Link to={'/new-request'} className='btn  btn-block'>
-         Modifier mon profil partenaire
-      </Link>
-
-        </section> : <div>Pas partners</div>  }
-        <Link to={'/new-request'} className='btn  btn-block'>
-          Faire une demande de collecte
-      </Link>
+     
+           { localStorage.setItem('userRole', JSON.stringify(profil.data.role))}
+        {profil.data.role === "partners" ? (
+           <>
+           <h1>Private home partners</h1>
+           <p>Bonjour {profil.data.name}</p>
+           </>
+        ) : ""}
+        
+        {profil.data.role === "user" ? (
+           <>
+            <h1>private home user</h1>
+            <p>Bonjour {profil.data.name}</p>
+           </>
+        ) : ""}
+        {profil.data.role === "admin" ? (
+           <>
+            <h1>private home admin</h1>
+            <p>Bonjour {profil.data.name}</p>
+            <HomeAdminArea profil={profil.data}/>
+           </>
+        ) : ""}
+    
+        
       </div>
     );
   }

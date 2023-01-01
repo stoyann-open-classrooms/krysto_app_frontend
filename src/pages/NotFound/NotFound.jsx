@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import loader from "../assets/krysto_loader.svg";
+import loader from "../../assets/krysto_loader.svg";
 function NotFound() {
   return (
    

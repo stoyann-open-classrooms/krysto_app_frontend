@@ -7,6 +7,9 @@ import Spinner from '../shared/spinner/Spinner'
 
 
 function ProductCategoriesList() {
+
+  const userRole = JSON.parse(localStorage.getItem('userRole'))
+
   const { articleCategories, isLoading, isError, isSuccess } = useSelector(
     (state) => state.articleCategories,
   )

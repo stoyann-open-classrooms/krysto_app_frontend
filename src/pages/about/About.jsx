@@ -1,7 +1,8 @@
-import handImage from "../assets/image/bouchons_hands.png";
-import product from "../assets/image/extrusion-products.jpg";
-import krysto from "../assets/image/shred_plastic_bar.jpeg";
-import waste from "../assets/image/Plastic-waste-ocean.jpg";
+import handImage from "../../assets/image/bouchons_hands.png";
+import product from "../../assets/image/extrusion-products.jpg";
+import krysto from "../../assets/image/shred_plastic_bar.jpeg";
+import waste from "../../assets/image/Plastic-waste-ocean.jpg";
+import './about.css'
 
 function About() {
   return (

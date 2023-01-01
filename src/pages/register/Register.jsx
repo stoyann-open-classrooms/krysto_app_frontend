@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import {toast} from 'react-toastify'
 import { FaMarsStroke, FaUser } from "react-icons/fa";
 import {useSelector , useDispatch} from "react-redux";
-import  {register, reset} from '../features/auth/authSlice'
+import  {register, reset} from '../../features/auth/authSlice'
 
 
 
