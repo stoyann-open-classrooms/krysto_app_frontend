@@ -1,4 +1,4 @@
-import "./home.css";
+import '../../pages/home/home.css'
 function Paralax() {
   return (
     <section className="paralax">

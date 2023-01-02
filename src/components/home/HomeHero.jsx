@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HomeSlider from "./HomeSlider";
-import "./home.css";
+import '../../pages/home/home.css'
 function HomeHero() {
   return (
     <section className="home-hero">

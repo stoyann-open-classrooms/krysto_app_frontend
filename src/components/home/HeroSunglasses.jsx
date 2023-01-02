@@ -6,6 +6,7 @@ import recyclableIcone from "../../assets/icones/Fichier 3.svg";
 import transformIcone from "../../assets/icones/Fichier 4.svg";
 import designIcone from "../../assets/icones/Fichier 13.svg";
 import easyIcone from "../../assets/icones/Fichier 10.svg";
+import '../../pages/home/home.css'
 function HeroMaterial() {
   return (
     <section className="sunglases-home-section">

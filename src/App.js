@@ -17,8 +17,7 @@ import Login from "./pages/login/Login";
 import NewRequest from "./pages/newRequest/NewRequest";
 import NotFound from "./pages/NotFound/NotFound";
 import Partners from "./pages/partners/Partners";
-import Recyclers from "./pages/partners/recyclers/Recyclers";
-import Resselers from "./pages/partners/resselers/Resselers";
+
 import PressKit from "./pages/pressKit/PressKit";
 import CollectRequest from "./pages/private/CollectRequest";
 import Private from "./pages/private/Private";
@@ -35,7 +34,7 @@ import Testimonials from "./pages/testimonials/Testimonials";
 import Thanks from "./pages/thanks/Thanks";
 import ArticlesAdmin from "./pages/private/admin/ArticlesAdmin";
 import Partner from "./pages/Partner/Partner";
-
+import AdminPage from "./pages/admin/AdminPage";
 
 function App() {
   return (
@@ -45,6 +44,7 @@ function App() {
         <div className="container">
           <Header />
           <Routes>
+            <Route path="/admin" component={AdminPage} />
             <Route path="/" element={<Home />} />
             <Route
               path="/nos-produits-categories"
@@ -84,10 +84,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="/condition-generale-uttilisation" element={<Cgu />} />
             <Route path="/nos-partenaires" element={<Partners />}></Route>
-            <Route
-              path="/partenaire/:id"
-              element={<Partner />}
-            />
+            <Route path="/partenaire/:id" element={<Partner />} />
             <Route path="/private" element={<Private />}>
               <Route path="/private/private-home" element={<PrivateHome />} />
               <Route
@@ -96,13 +93,9 @@ function App() {
               />
               <Route
                 path="/private/articles-admin"
-                element={<ArticlesAdmin/>}
+                element={<ArticlesAdmin />}
               />
-            
             </Route>
-
-
-           
           </Routes>
           <Footer />
         </div>

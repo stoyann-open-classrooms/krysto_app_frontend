@@ -47,7 +47,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './home.css'
+import '../../pages/home/home.css'
 // import required modules
 import { EffectCube, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 function HomeSlider() {
