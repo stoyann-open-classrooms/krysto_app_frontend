@@ -1,6 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 import processMethod from "../../assets/image/process-3.jpg";
 import ppProducts from "../../assets/image/pp_products.jpg";
 
@@ -20,7 +19,7 @@ function HeroMethod() {
           <img src={processMethod} alt="" />
         </div>
 
-        <Link to={"/product-method"} className="btn btn-block">
+        <Link to={"/nos-methodes-de-production"} className="btn btn-block">
           Découvir notre mode de production
         </Link>
       </section>

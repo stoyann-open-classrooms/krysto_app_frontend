@@ -1,6 +1,7 @@
 import React from "react";
 import plasticPollution from "../../assets/image/tortue_sac_plastique.png";
-import '../../pages/home/home.css'
+
+import '../../pages/public/home/home.css'
 import microPlasticPollution from "../../assets/image/plastic-ocean.png";
 import Paralax from "./Paralax";
 function ProblemHero() {

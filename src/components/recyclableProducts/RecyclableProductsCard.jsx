@@ -1,6 +1,7 @@
 import React from 'react'
 import recyclableProductService from '../../features/recyclableProduct/recyclableProductService'
-import '../../pages/recyclableProducts/recyclableProducts.css'
+
+import '../../pages/public/recyclableProducts/recyclableProducts.css'
 function RecyclableProductsCard({recyclableProduct}) {
   return (
     <div className='recyclableProduct-card'>

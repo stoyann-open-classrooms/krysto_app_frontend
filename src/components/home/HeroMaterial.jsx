@@ -6,26 +6,35 @@ import recyclableIcone from "../../assets/icones/Fichier 3.svg";
 import transformIcone from "../../assets/icones/Fichier 4.svg";
 import designIcone from "../../assets/icones/Fichier 13.svg";
 import easyIcone from "../../assets/icones/Fichier 10.svg";
-import '../../pages/home/home.css'
+
+import '../../pages/public/home/home.css'
 function HeroMaterial() {
   return (
     <section className="material-home-section">
       <h3>Faites le choix de la durabilité et de l'esthétique et de l'originalité avec nos poutres et planche en plastique recyclé.</h3>
       <p>
         Nos poutres et planches en plastique recyclé offrent de
-        nombreux avantages par rapport aux matériaux plus conventionnels. Tout
+        nombreux avantages par rapport aux matériaux plus conventionnels. 
+      </p>
+        
+        <p>
+        Tout
         d'abord, leur esthétique est très appréciée pour leur originalité et
         leur effet marbré obtenu grâce au tri par couleur des plastiques. Chaque
         article est donc unique et offre un design original et personnalisé.
         Ensuite, leur imperméabilité les rend idéales pour les usages en
-        extérieur. Elles résistent aux intempéries et ne pourrissent pas, ce qui
-        les rend très durables et économiques à l'utilisation. Enfin, nos
+        extérieur.   Elles résistent aux intempéries et ne pourrissent pas, ce qui
+        les rend très durables et économiques à l'utilisation.
+        </p>
+        <p>
+        Enfin, nos
         poutres et planches sont faciles à travailler et peuvent être coupées,
         percées ou vissées comme du bois, ce qui les rend très polyvalentes et
         adaptées à de nombreux projets. En optant pour nos produits en plastique
         recyclé, vous contribuez à la réduction de la pollution plastique et à
         la création de produits recyclés de qualité.
-      </p>
+        </p>
+  
       <div className="icones-boxes">
         <div className="little-boxe">
           <img src={localIcone} alt="icone fabrication locale" />

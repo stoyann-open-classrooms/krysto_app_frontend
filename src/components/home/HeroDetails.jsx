@@ -16,7 +16,12 @@ function HeroDetails() {
         <p>
           Pour colorer les plastiques issus du recyclage les industries ajoutent
           souvent une faible quantité de produits chimiques, car elle ne trient
-          pas leurs plastiques en amont du processus de recyclage. Chez Krysto,
+          pas leurs plastiques en amont du processus de recyclage.
+          
+        </p>
+        <p>
+
+           Chez Krysto,
           nous pratiquons un tri rigoureux de nos plastiques par type et par
           couleur ce qui nous permet d'eviter l'ajout de produits chimiquess. En
           choisissant nos produits recyclés, vous pouvez être sûr qu'ils ont été
@@ -29,15 +34,23 @@ function HeroDetails() {
           Chez Krysto, nous accordons une importance particulière à
           l'utilisation de machines qui respectent une démarche Low-Tech. Cela
           signifie que nos machines sont simples, faciles à réparer et ne
-          comprennent pas de technologie superflue. Nous veillons également à ce
+          comprennent pas de technologie superflue. 
+        </p>
+        <p>
+          Nous veillons également à ce
+          
           qu'elles respectent des normes de sécurité et de qualité élevées. Nous
           achetons ces équipements auprès d'un fournisseur français qui partage
-          nos valeurs de durabilité et de respect de l'environnement. En optant
+          nos valeurs de durabilité et de respect de l'environnement. 
+        </p>
+          <p>
+
+          En optant
           pour des machines Low-Tech, nous visons à utiliser des équipements
           fiables, durables et économiques à l'utilisation. Nous croyons que
           cette approche est essentielle pour contribuer à un avenir durable et
           respectueux de l'environnement.
-        </p>
+          </p>
       </div>
     </section>
   );

@@ -3,8 +3,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import {  getPartners, reset } from '../../features/partner/partnerSlice'
 import Spinner from '../../components/shared/spinner/Spinner'
 import PartnerLocation from './PartnerLocation'
+import '../../pages/public/partners/partners.css'
 
-import '../../pages/partners/partners.css'
 import { Link } from 'react-router-dom'
 
 

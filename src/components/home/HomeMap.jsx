@@ -6,7 +6,8 @@ import {
   TileLayer,
 } from "react-leaflet";
 import { Link } from "react-router-dom";
-import '../../pages/home/home.css'
+
+import '../../pages/public/home/home.css'
 
 function HomeMap() {
   return (
